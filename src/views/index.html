@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav-bar brandName="<%= brandName %>"></nav-bar>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <hero-component brandName="<%= brandName %>"></hero-component>
+      <section class="card-wrapper"></section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <footer-component></footer-component>
+    </footer>
+  </body>
+</html>
